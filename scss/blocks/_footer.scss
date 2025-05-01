@@ -1,0 +1,135 @@
+// .footer {
+//     display: flex;
+//     justify-content: space-around;
+//     background-color: #d1e3e4;
+//     padding: 40px 20px;
+//     font-family: sans-serif;
+//   }
+  
+//   .footer-column {
+//     flex: 1;
+//     max-width: 200px;
+//   }
+  
+//   .footer-column h4 {
+//     font-weight: bold;
+//     margin-bottom: 15px;
+//     color: #111;
+//   }
+  
+//   .footer-column ul {
+//     list-style: none;
+//     padding: 0;
+//   }
+  
+//   .footer-column ul li {
+//     margin-bottom: 10px;
+//   }
+  
+//   .footer-column ul li a {
+//     text-decoration: none;
+//     color: #666;
+//   }
+  
+//   .footer-column ul li a:hover {
+//     color: #000;
+//   }
+
+
+.footer {
+    background-color: #d1e3e4; /* Orqa fon rangi */
+    padding: 40px 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer__inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer__first-box {
+    flex: 1 1 250px;
+  }
+  
+  .footer__img {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .footer__text {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .footer__net {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer__net-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .footer__net-link:hover {
+    border-color: #000;
+  }
+  
+  .footer__net-1 {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .footer-column {
+    flex: 1 1 150px;
+  }
+  
+  .footer-column h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    transition: 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #000;
+  }
+
+  .footer__bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  

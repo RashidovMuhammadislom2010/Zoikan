@@ -1,0 +1,148 @@
+.header {
+    padding: 10px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 100px;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__item-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.header__item-link:nth-child(n+2) {
+    color: #999;
+}
+
+.header__item-link:hover {
+    color: #333;
+}
+
+.header__mini-box {
+    display: flex;
+    align-items: center;
+}
+
+.header__mini-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__mini-item-link {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__mini-item-img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+//------------------------------------- BURGER BTN ---------------------//
+
+.burger-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+.burger-menu.active {
+    display: block;
+}
+
+.search-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #999;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    transition: color 0.3s;
+}
+
+.menu-list li a:hover {
+    color: #0066cc;
+}
+
+.has-submenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.has-submenu.active .submenu {
+    display: block;
+}
+
+.submenu li a {
+    font-size: 14px;
+    color: #666;
+}

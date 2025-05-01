@@ -1,0 +1,123 @@
+.hero {}
+
+.hero__inner {
+    background-color: #C1DCDC;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+}
+
+.hero__out {
+  display: flex;
+  position: relative;
+}
+
+.hero__out::before {
+  content: "";
+  background-image: url(../../images/arrow%201.svg);
+  background-repeat: no-repeat;
+  width: 112.54px;
+  height: 220.41px;
+  background-size: cover;
+  position: absolute;
+  right: 20px;
+  top: -10px;
+}
+
+.hero__out::after {
+  content: "";
+  background-image: url(../../images/arrow%202.svg);
+  background-repeat: no-repeat;
+  width: 175.72px;
+  height: 82.89px;
+  background-size: cover;
+  position: absolute;
+  left: 474px;
+  top: 270px;
+}
+
+.hero__left {}
+
+.hero__left-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.pointer__out {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero__left-pointer-1 {}
+
+.hero__pointer {
+    font-weight: 500;
+    font-size: 29px;
+}
+
+.hero__pointer-span {}
+
+.hero__left-pointer-2 {}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: #C1DCDC;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .search-btn:hover {
+    background-color: #bdd5d8;
+  }
+  
+  .search-btn i {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+  }
+  
+
+
+.hero__right {
+    background-image: url(../../images/bgcc.svg);
+    width: 860px;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.hero__right-img {
+    height: 388px;
+    width: 470px;
+}

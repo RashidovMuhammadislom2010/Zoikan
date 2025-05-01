@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+
+section {
+    opacity: 1;
+    transform: translateY(30px); 
+    transition: opacity 4s ease-out, transform 3s ease-out;
+}
+
+
+section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
